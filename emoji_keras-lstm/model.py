@@ -74,3 +74,4 @@ def Emojify_V2(input_shape, word_to_vec_map, word_to_index):
 
 
 model = Emojify_V2((maxLen,), word_to_vec_map, word_to_index)
+model.summary()
