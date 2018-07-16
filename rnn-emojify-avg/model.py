@@ -7,6 +7,8 @@ X_test, Y_test = read_csv('tesss.csv')
 len(max(X_train, key=len).split())
 maxLen = len(max(X_train, key=len).split())
 
+
+
 def read_glove_vecs(glove_file):
     with open(glove_file, 'r+', encoding="utf-8") as f:
         words = set()
